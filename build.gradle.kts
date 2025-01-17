@@ -15,8 +15,7 @@ repositories {
 
 dependencies {
   intellijPlatform {
-    intellijIdeaCommunity("2024.2")
-    instrumentationTools()
+    intellijIdeaCommunity("2024.3")
     bundledPlugin("com.intellij.java")
     testFramework(TestFrameworkType.Platform)
   }
@@ -24,13 +23,13 @@ dependencies {
 
 plugins {
   id("java")
-  id("org.jetbrains.intellij.platform") version "2.0.0"
+  id("org.jetbrains.intellij.platform") version "2.2.1"
   id("org.jetbrains.grammarkit") version "2022.3.2.2"
 }
 
 java {
   toolchain {
-    languageVersion = JavaLanguageVersion.of(17)
+    languageVersion = JavaLanguageVersion.of(21)
   }
 }
 
