@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
   intellijPlatform {
-    intellijIdeaCommunity("2025.1")
+    intellijIdeaCommunity("2025.2")
     bundledPlugin("com.intellij.java")
     testFramework(TestFrameworkType.Platform)
   }
@@ -23,7 +23,7 @@ dependencies {
 
 plugins {
   id("java")
-  id("org.jetbrains.intellij.platform") version "2.6.0"
+  id("org.jetbrains.intellij.platform") version "2.7.1"
   id("org.jetbrains.grammarkit") version "2022.3.2.2"
 }
 
@@ -35,7 +35,7 @@ java {
 
 intellijPlatform {
   pluginConfiguration {
-    version = "1.6.2"
+    version = "1.6.3"
     name = "k"
   }
   buildSearchableOptions = false
