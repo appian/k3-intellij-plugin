@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>idea.k3</id>
   <name>k3</name>
-  <version>1.6.2</version>
+  <version>1.6.3</version>
   <category>Custom Languages</category>
   <vendor email="antonio.andrade@me.com">Antonio Andrade</vendor>
   <description><![CDATA[
