@@ -37,6 +37,11 @@ intellijPlatform {
   pluginConfiguration {
     version = "1.6.4"
     name = "k"
+    vendor {
+      email = "opensource@appian.com"
+      name = "Appian Corporation"
+      url = "https://www.appian.com"
+    }
   }
   buildSearchableOptions = false
 }
