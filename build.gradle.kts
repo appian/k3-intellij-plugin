@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
   intellijPlatform {
-    intellijIdea("2026.1")
+    intellijIdea("2026.2")
     bundledPlugin("com.intellij.java")
     testFramework(TestFrameworkType.Platform)
   }
@@ -23,24 +23,27 @@ dependencies {
 
 plugins {
   id("java")
-  id("org.jetbrains.intellij.platform") version "2.13.1"
+  id("org.jetbrains.intellij.platform") version "2.18.1"
   id("org.jetbrains.grammarkit") version "2023.3.0.3"
 }
 
 java {
   toolchain {
-    languageVersion = JavaLanguageVersion.of(21)
+    languageVersion = JavaLanguageVersion.of(25)
   }
 }
 
 intellijPlatform {
   pluginConfiguration {
-    version = "1.6.5"
+    version = "1.6.6"
     name = "k"
     vendor {
       email = "opensource@appian.com"
       name = "Appian Corporation"
       url = "https://www.appian.com"
+    }
+    ideaVersion {
+      sinceBuild = "253"
     }
   }
   buildSearchableOptions = false

@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>idea.k3</id>
   <name>k3</name>
-  <version>1.6.5</version>
+  <version>1.6.6</version>
   <category>Custom Languages</category>
   <vendor email="opensource@appian.com">Appian Corporation</vendor>
   <description><![CDATA[
